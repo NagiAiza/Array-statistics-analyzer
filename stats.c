@@ -9,13 +9,15 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c 
+ * @brief Statistical analysis on an array of unsigned char
  *
- * <Add Extended Description Here>
+ * This file contains function to calculate max, min, mean and median
+ * of a dataset. It allows to sort data in descending order
+ * and display the results on the console
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Alexis Boulic
+ * @date June 7, 2026
  *
  */
 
@@ -40,4 +42,31 @@ void main() {
 
 }
 
-/* Add other Implementation File Code Here */
+void print_statistics(unsigned char *ptr, unsigned int size) {
+
+}
+
+void print_array(unsigned char *ptr, unsigned int size) {
+
+}
+
+unsigned char find_median(unsigned char *ptr, unsigned int size) {
+  return 0;
+}
+
+unsigned char find_mean(unsigned char *ptr, unsigned int size) {
+  return 0;
+}
+
+unsigned char find_maximum(unsigned char *ptr, unsigned int size) {
+  return 0;
+}
+
+unsigned char find_minimum(unsigned char *ptr, unsigned int size) {
+  return 0;
+}
+
+void sort_array(unsigned char *ptr, unsigned int size) {
+
+}
+
